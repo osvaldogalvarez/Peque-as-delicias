@@ -127,12 +127,8 @@ img {
     animation: foto-galeria 1.3s;
 }
 @keyframes foto-galeria {
-    50% {
-        background-color: rgb(173, 166, 166);
-        
-    }
-    50% {
-        background-color: rgb(138, 48, 48);
+    15% {
+        box-shadow: 10px 5px 5px rgb(139, 136, 136)
     }
 }
 .button:hover {

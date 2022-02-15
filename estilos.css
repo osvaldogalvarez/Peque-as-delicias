@@ -24,7 +24,10 @@ ul {
     margin-right: 15px;
     flex-wrap: wrap;
 }
-
+.link:hover {
+    transform: scale(2);
+    transition: all 1.5s;
+}
 
 
 
@@ -84,13 +87,23 @@ img {
 .grid-recetas {
     margin-top: auto;
     margin-left: 50px;
+    
 }
+
 .flex-productos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 20px;
     flex-wrap: wrap;
+}
+.flex-button {
+    display: flex;
+    justify-content: flex-end;
+}
+.foto-productos:hover {
+    transform: scale(1.3);
+    transition: all 1.2s;
 }
 .servicios-container {
     display: flex;
@@ -108,7 +121,24 @@ img {
     flex-wrap: wrap;
 
 }
-
+.foto-galeria:hover {
+    transform: scale(1.3);
+    transition: all 1.3s;
+    animation: foto-galeria 1.3s;
+}
+@keyframes foto-galeria {
+    50% {
+        background-color: rgb(173, 166, 166);
+        
+    }
+    50% {
+        background-color: rgb(138, 48, 48);
+    }
+}
+.button:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
 
 h2, h3, iframe {
     color: rgb(166, 101, 226);

@@ -24,10 +24,13 @@ ul {
     margin-right: 15px;
     flex-wrap: wrap;
 }
+.texto-color {
+    color: blueviolet;
+}
 .link:hover {
     transform: scale(2);
-    transition: all 1.5s;
-    animation: link 1.8s;
+    transition: all 2.5s;
+    animation: link 2.8s;
 }
 
 @keyframes link {

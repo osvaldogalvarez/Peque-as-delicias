@@ -27,9 +27,14 @@ ul {
 .link:hover {
     transform: scale(2);
     transition: all 1.5s;
+    animation: link 1.8s;
 }
 
-
+@keyframes link {
+    50% {
+        box-shadow: 10px 5px 5px rgb(139, 136, 136)
+    }
+}
 
 
 /*fin header*/
@@ -140,7 +145,15 @@ img {
 .button:hover {
     transform: scale(1.5);
     transition: all 1s;
+    animation: button 1.8s;
 }
+
+@keyframes button {
+    50% {
+        box-shadow: 10px 5px 5px rgb(139, 136, 136)
+    }
+}
+
 
 h2, h3, iframe {
     color: rgb(166, 101, 226);
@@ -177,3 +190,4 @@ iframe {
 .grid-item {
     background-color: rgb(230, 222, 238);
 }
+ 
